@@ -4,36 +4,33 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Inter', sans-serif;
   background-color: #282D35;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  padding: 20px; /* allows spacing on small screens */
 }
 
 .card {
   background-color: #21242b;
   border-radius: 20px;
-  width: 90%;
+  width: 100%;
   max-width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* pushes footer to bottom */
   padding-bottom: 0;
-  overflow: hidden;
   border: 1px solid #444;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  max-height: 90vh;
 }
 
 
 .profile-pic {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .info h1 {

@@ -5,8 +5,8 @@ footer {
   gap: 20px;
   padding: 1rem;
   background-color: #1a1a1a;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 footer a {
