@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #282D35;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #21242b;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes footer to bottom */
+  padding-bottom: 0;
+  overflow: hidden;
+  border: 1px solid #444;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  max-height: 90vh;
+}
+
+
+.profile-pic {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info h1 {
+  margin: 10px 0 5px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.info h3 {
+  margin: 0;
+  color: #f3bf99;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.email-btn,
+.linkedin-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.email-btn {
+  background: white;
+  color: black;
+}
+
+.email-btn:hover {
+  background: #ddd;
+  transform: scale(1.05);
+}
+
+.linkedin-btn {
+  background: #0077b5;
+  color: white;
+}
+
+.linkedin-btn:hover {
+  background: #005f94;
+  transform: scale(1.05);
+}
+
+.section > h2 {
+  text-align: left;
+  margin: 10px 10% 5px;
+  font-size: 1.1rem;
+}
+
+.section > p {
+  text-align: left;
+  margin: 0 10% 10px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
